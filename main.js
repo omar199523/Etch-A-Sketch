@@ -49,10 +49,11 @@ function randColor(){
         
     return "rgb("+r+","+g+","+(b*0.10)+")";
 };
-//this eavnts wark when cklick dowm of the button reload to window.
+creatNetwark(16,myMainDiv);
+//this eavnts wark when cklick dowm of the button remove children from myMainDiv.
 //and when click up Running out prompt.
 b.onmousedown = function(){
-    window.location.reload();
+    myMainDiv.innerHTML ="";
 }
 b.onmouseup = function(){
     let num = prompt ("pleas enter youer number to create new netwark","16");
