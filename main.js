@@ -21,7 +21,6 @@ function calcoMarg(n){
 };
 // this function warks at create netwark in myMainDiv.
 function creatNetwark(num,parant){
-    window.location.reload
     //this for to create cell.
     for (i=0;i<num*num;i++){
             var cell = document.createElement("div");
