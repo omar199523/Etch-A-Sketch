@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.con{
+    width: 300px;
+    margin: 40px 40px 0px 40px;
+    padding: 10px;
+    border: 2px solid ;
+    display: flex;
+    flex-flow: row;
+
+}
+.con h4{
+    color: #080;
+    margin: 5px 50px 5px 5px;
+}
+#myButton{
+    transition: all .5s;
+}
+
+
+.myMainDiv{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    margin: 0px 20px;
+    background-color: rgb(198, 198, 202);
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.cell{
+    width: 44px;
+    height: 44px;
+    background-color: rgb(48, 53, 52);
+}
+
